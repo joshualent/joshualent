@@ -1,9 +1,19 @@
 hello:
   label: Hello
-  permalink: /hello
-  description: Hello tag description
+  permalink: /hello-snippets
+  description: Hello snippets
 
 docusaurus:
   label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+  permalink: /docusaurus-snippets
+  description: Docusaurus snippets
+
+opinion:
+  label: Opinion
+  permalink: /opinion-snippets
+  description: Opinion piece snippets
+
+speculation:
+  label: Speculation
+  permalink: /speculation-snippets
+  description: Speculation piece snippets
