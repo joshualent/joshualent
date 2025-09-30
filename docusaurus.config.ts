@@ -86,7 +86,13 @@ const config: Config = {
       },
     ],
   ],
-
+  scripts: [
+    {
+      src: "https://cloud.umami.is/script.js",
+      "data-website-id": "c23bcfef-38df-48c5-bc51-f0685f4f4ebe",
+      defer: true,
+    },
+  ],
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
