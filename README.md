@@ -1,9 +1,3 @@
-# Website
+Hi, I'm Josh. I'm a software developer and CS nerd very curious about web development. I like trying new things and starting a new projects, most of which can be found here on GitHub. I really enjoy working with Django and the MVC/MVT pattern, but I also have experience with TypeScript and React. 
 
-My personal site built with [Docusaurus](https://docusaurus.io/). It includes a portfolio page, my personal wiki, a blog, and some writing snippets.
-
-## Development
-
-This site uses TypeScript with pnpm as the package manager. Start the site with `pnpm dev`. To build and serve the site, use `pnpm build` and `pnpm serve`.
-
-Docusaurus is a bit picky when it comes to content that could be confused for JavaScript syntax (even in `.md` files). It seems like brackets `{}` and unclosed html tags (ie. `<br>`) cause build issues
+I am working towards a bachelor's degree in CS and looking for a career in web development. I'm quite interested in advancements in web development from the new rendering strategies in Next.js, libraries like [Alpine.js](https://alpinejs.dev/) and [htmx](https://htmx.org/) pushing [LoB](https://htmx.org/essays/locality-of-behaviour/), and other cool web things like [Convex](https://www.convex.dev/) and [Dokploy](https://dokploy.com/).
