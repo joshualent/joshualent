@@ -3,17 +3,17 @@ hello:
   permalink: /hello-snippets
   description: Hello snippets
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus-snippets
-  description: Docusaurus snippets
+rust:
+  label: Rello
+  permalink: /rust-snippets
+  description: Rust
 
-opinion:
-  label: Opinion
-  permalink: /opinion-snippets
-  description: Opinion piece snippets
+programming:
+  label: Programming
+  permalink: /programming-snippets
+  description: Programming
 
-speculation:
-  label: Speculation
-  permalink: /speculation-snippets
-  description: Speculation piece snippets
+learning:
+  label: Learning
+  permalink: /learning-snippets
+  description: About Learning
