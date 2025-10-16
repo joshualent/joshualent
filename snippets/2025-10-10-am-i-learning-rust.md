@@ -1,6 +1,6 @@
 ---
-slug: am-i-learning-rust
-title: Am I Actually Learning Rust?
+slug: learning-rust
+title: Learning Rust
 authors: [josh]
 tags: [learning, programming, rust]
 ---
@@ -23,3 +23,5 @@ Against all odds, I still have a spark and a will to learn Rust. It might be a w
 
 Right now I'm going through Ch 4: Ownership and it's pretty dense stuff, but I'm not as deterred and still excited to be able to keep up with it. I do actually have to put it on the backburner so I don't fail my calc exam, but I will be looking forward to it and still trying to sneak in time for it when I can.
 
+-- EDIT --<br/>
+I stopped learning Rust 😢. It's a cool language but I'd rather build projects with the tools I already know for rn (plus ownership hurts my brain).

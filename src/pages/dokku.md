@@ -1,7 +1,7 @@
 ---
 title: Windokku
 ---
-I am working on a solution for multi-user dokku usage I have called windokku (named such becuase `dokku.win` is available).
+I am (somewhat) working on a solution for multi-user dokku usage I have called windokku (named such becuase `dokku.win` is available).
 
 Here is [the Dokku plugin](https://github.com/joshualent/windokku-acl)
 

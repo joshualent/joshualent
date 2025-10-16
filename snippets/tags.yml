@@ -4,7 +4,7 @@ hello:
   description: Hello snippets
 
 rust:
-  label: Rello
+  label: Rust
   permalink: /rust-snippets
   description: Rust
 
