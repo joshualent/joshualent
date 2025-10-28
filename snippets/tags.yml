@@ -17,3 +17,13 @@ learning:
   label: Learning
   permalink: /learning-snippets
   description: About Learning
+
+django:
+  label: Django
+  permalink: /django-snippets
+  description: About Django
+
+tailwindcss:
+  label: TailwindCSS
+  permalink: /tainwindcss-snippets
+  description: About TailwindCSS
