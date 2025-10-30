@@ -1,6 +1,6 @@
 ---
-slug: learning-rust
-title: Learning Rust
+slug: rust
+title: Rust
 authors: [josh]
 tags: [learning, programming, rust]
 ---
