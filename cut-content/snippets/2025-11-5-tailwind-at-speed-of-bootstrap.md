@@ -28,8 +28,18 @@ DaisyUI, Flowbite, and HyperUI are popular component libraries I've looked at in
 
 I want my same workflow where I stay in my editor for the simple stuff and can quickly build out UIs
 
+I have come around to daisyui, and I think it is actually a pretty solid option. You can use it as much or little as you want, which is nice. Unlike bootstrap, you can add it to your project without your bundlesize gorwing out of hand from styles you aren't even using.
+
 ## Tailwind Forms
 The Tailwind Forms plugin is pretty much exactly what I want. Sensible defaults for forms, in an unstyled (easy to style with utility classes) and styled.
 
 ## shadcn-django
-shadcn-django is an unofficial component collection that operates similar to shadcn/ui using django-cotton, alpine.js, and tailwindCSS.
+shadcn-django is an unofficial component collection that operates similar to shadcn/ui using django-cotton, alpine.js, and tailwindCSS. I think this looks pretty cool and is one of hte reasons I'm considering Tailwind more. I really believe modern fullstack django is going to adopt tailwindcss, and I'd like to be part of it to take advantage of new tooling.
+
+## Tailwind Typography
+
+While Tailwind Typography is mostly meant for markdown or CMS content, It's not locked into that use case. When I use bootstrap, normally half of my tags don't need any classes becuase of bootstrap's sensible default styling. I like that tailwind typography offers that, and opting into the styles is as easy as adding `.prose` to whatever block of content you want default styles for (for text elements).
+
+## Conclusion
+
+All in all, I'm pretty happy about some of the research I've done into tailwind. I think locality of behavior is a huge win and tailwindCSS is likely the best styling option for LoB. With a combination of Tailwind Forms, Tailwind Typography, DaisyUI, and shadcn-django, it seems like I will be able to start transitioning some of my projects from Bootstrap to TailwindCSS.
