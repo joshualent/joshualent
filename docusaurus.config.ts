@@ -40,6 +40,7 @@ const config: Config = {
       "classic",
       {
         docs: {
+          routeBasePath: "wiki",
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -111,7 +112,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Wiki",
+          label: "Notes",
         },
         {
           label: "Snippets",
@@ -143,7 +144,7 @@ const config: Config = {
             },
             {
               label: "Wiki",
-              to: "/docs",
+              to: "/wiki",
             },
           ],
         },

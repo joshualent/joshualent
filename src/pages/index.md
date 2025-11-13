@@ -6,7 +6,7 @@ title: Portfolio
 
 Hi, I'm Josh and I'm those things ^
 
-[wiki](/docs)<br/>
+[wiki](/wiki)<br/>
 [snippets](/snippets)<br/>
 [blog](/blog)
 

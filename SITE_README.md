@@ -1,6 +1,6 @@
 # Website
 
-My personal site built with [Docusaurus](https://docusaurus.io/). It includes a portfolio page, my personal wiki, a blog, and some writing snippets.
+My personal site built with [Docusaurus](https://docusaurus.io/). It includes a portfolio page, my personal wiki, a blog, and some snippets including TIL and brief opinion pieces.
 
 ## Development
 
