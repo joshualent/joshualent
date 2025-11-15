@@ -114,4 +114,4 @@ ttyd -c "claude:<YOUR PASSWORD HERE>" -W -p 4562 bash
 
 you should see logs from this web shell in your terminal. login with the set username (claude) and whatever password you set. 
 
-To create a durable session you can attach and detach from, use `tmux claude` (alias setup above) to create a new tmux session that you can run claud code in. Detach with <kbd>Ctrl</kbd>+<kbd>b</kbd>+<kbd>d</kbd>, and reattach with `tmux claude`.
+To create a durable session you can attach and detach from, use `tmux claude` (alias setup above) to create a new tmux session that you can run claud code in. Detach with <kbd>Ctrl</kbd>+<kbd>b</kbd> <kbd>d</kbd>, and reattach with `tmux claude`.

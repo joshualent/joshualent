@@ -4,7 +4,7 @@ title: Portfolio
 
 # Software Engineer | Web Developer | CS Nerd 
 
-Hi, I'm Josh and I'm those things ^
+Hi, I'm Josh. I like programming, Linux, and building for the web.
 
 [wiki](/wiki)<br/>
 [snippets](/snippets)<br/>
