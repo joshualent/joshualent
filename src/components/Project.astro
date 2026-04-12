@@ -1,0 +1,14 @@
+---
+const { title, url, description } = Astro.props;
+---
+
+<div class="md:flex md:justify-between">
+  <h3 class="text-lg font-semibold text-zinc-800 dark:text-zinc-200">
+    <a
+      href={url}
+      class="underline decoration-2 decoration-zinc-400/70 underline-offset-2 transition-all hover:underline-offset-4 dark:decoration-zinc-600/70"
+      >{title}</a
+    >
+  </h3>
+  <p class="text-zinc-600 dark:text-zinc-400">{description}</p>
+</div>

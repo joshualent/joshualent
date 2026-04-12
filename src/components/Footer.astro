@@ -1,0 +1,25 @@
+---
+const links = [
+  { name: "x.com the everything app", url: "https://x.com/joshisfrog" },
+  // { name: "youtube", url: "https://www.youtube.com/@joshualent" },
+  { name: "linkedin", url: "https://www.linkedin.com/in/joshua-lent" },
+  { name: "github", url: "https://github.com/joshualent" },
+];
+---
+
+<footer class="mt-12 text-center">
+  <div class="flex flex-wrap justify-center gap-x-4 gap-y-2 tracking-tight">
+    {
+      links.map((link) => (
+        <a
+          href={link.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-zinc-400 underline-offset-2 transition-colors duration-200 decoration-accent-green/20 decoration-2 hover:text-accent-green hover:underline dark:text-zinc-500 dark:decoration-accent-green-bright/20 dark:hover:text-accent-green-bright"
+        >
+          {link.name}
+        </a>
+      ))
+    }
+  </div>
+</footer>

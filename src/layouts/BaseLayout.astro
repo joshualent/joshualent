@@ -1,0 +1,42 @@
+---
+import "../styles/global.css";
+import Footer from "../components/Footer.astro";
+
+interface Props {
+  pageTitle?: string;
+  description?: string;
+}
+
+const {
+  pageTitle = "Joshua Lent",
+  description = "My portfolio, blog, and personal website.",
+} = Astro.props;
+---
+
+<html lang="en" class="font-sans">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <title>{pageTitle}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="antialiased tracking-tight">
+    <div
+      class="flex min-h-screen flex-col justify-between bg-white p-8 pt-0 text-zinc-900 md:pt-8 dark:bg-zinc-950 dark:text-zinc-200"
+    >
+      <main class="mx-auto w-full max-w-[60ch] space-y-6">
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/*
+ * Green accent (forest on light, soft mint on dark — hue stays in “green”, not cyan).
+ * Use with: prose prose-zinc prose-site … dark:prose-invert
+ */
+@utility prose-site {
+  --tw-prose-links: var(--color-accent-green);
+  --tw-prose-link-underline: var(--color-accent-green);
+  --tw-prose-counters: var(--color-accent-green);
+  --tw-prose-bullets: var(--color-accent-green-soft);
+  --tw-prose-quote-borders: var(--color-accent-green-tint);
+  --tw-prose-invert-links: var(--color-accent-green-bright);
+  --tw-prose-invert-link-underline: var(--color-accent-green-bright);
+  --tw-prose-invert-counters: var(--color-accent-green-bright);
+  --tw-prose-invert-bullets: var(--color-accent-green-bright-soft);
+  --tw-prose-invert-quote-borders: var(--color-accent-green-bright-deep);
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", monospace, ui-sans-serif, system-ui, sans-serif;
+
+  /* Light: deep green links on white */
+  --color-accent-green: #1a5c34;
+  --color-accent-green-soft: #3d8550;
+  --color-accent-green-tint: #c8ead0;
+
+  /* Dark: mint / spring green (readable on zinc-950, not aqua) */
+  --color-accent-green-bright: #72e08f;
+  --color-accent-green-bright-soft: #52c46f;
+  --color-accent-green-bright-deep: #286239;
+}

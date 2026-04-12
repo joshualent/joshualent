@@ -1,0 +1,21 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout pageTitle={frontmatter.title} description={frontmatter.description}>
+  <header class="not-prose mb-8 space-y-2">
+    <p class="text-sm text-zinc-500 dark:text-zinc-400">
+      {frontmatter.pubDate.toLocaleDateString()}
+    </p>
+    <p class="text-lg italic text-zinc-600 dark:text-zinc-400">
+      {frontmatter.description}
+    </p>
+  </header>
+  <div
+    class="prose prose-zinc prose-site max-w-none sm:prose-lg dark:prose-invert prose-headings:tracking-tight"
+  >
+    <slot />
+  </div>
+</BaseLayout>
