@@ -28,7 +28,7 @@ The modern best modern comparison for worse-is-better is TypeScript and Rust. Ja
 
 Rust is different. The Rust language is quite committed to backwards compatibility and it seems unlikely significant changes will be made to the language. it's a hard language to write, but it is extremely performant and code written in Rust is made to last. Choosing Rust for a project will mean a longer development timeline, but better performance.
 
-I personally use VSCode. I am aware of Zed and could switch over, but I really don't think I will. Why? Because It's been out, I got used to VSCode, and now most of the programming community has centralized around it. There are many extensions for it and now multiple forks of VSCodium. Is Zed better? I can't say for sure but it's more likely I stick with VSCode or end up using a "patched" version of it like Cursor.
+I personally use VSCode. I am aware of Zed and could switch over, but I really don't think I will. Why? Because VSCode's been out, I got used to it, and now most of the programming community has centralized around it. There are many extensions for it and now multiple forks of VSCodium. Is Zed better? I can't say for sure but it's more likely I stick with VSCode or end up using a "patched" version of it like Cursor.
 
 So in conclusion, **worse is better**.
 
